@@ -18,7 +18,8 @@
 
 # 使用技術
 
-Client: React, Firebase, Chakra UI
+Client: React, Chakra UI
+DataBase: Firebase
 
 # 作品截圖
 
