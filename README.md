@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 聊天GO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+聊天Go是一個任何人都可進入的公共聊天室，在聊天室中，您可以看到發訊息者的留言時間， 也能看到發訊息者的頭像。本作品主要練習使用Firebase以及使用Firebase提供的身份驗證方式進行登入。並練習使用Conditional Rendering去渲染明亮模式/黑暗模式的顏色、以及有登入的用戶才可看到聊天室。
 
-## Available Scripts
+連結: https://chat-app-firebase-7rlx.vercel.app/
 
-In the project directory, you can run:
+![Imgur](https://i.imgur.com/a57xh06.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- ABOUT THE PROJECT -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 功能
 
-### `npm test`
+- 使用Firebase中的Google驗證方式
+- 免註冊即可登入
+- 可切換光暗模式
+- 可即時看到輸入的訊息，顯示時間、訊息、頭像
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 使用技術
 
-### `npm run build`
+Client: React, Firebase, Chakra UI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 作品截圖
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 明亮模式
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Imgur](https://i.imgur.com/DfSzPUF.png)
 
-### `npm run eject`
+## 黑暗模式
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Imgur](https://i.imgur.com/iONgsOg.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 安裝
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+要安裝此應用程式，請按照以下步驟操作：
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+開啟終端機，並進入此專案的目錄。
 
-## Learn More
+執行以下指令以安裝相關套件：
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm i
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 執行
 
-### Code Splitting
+要啟動此應用程式，請執行以下指令：
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm start
+```
